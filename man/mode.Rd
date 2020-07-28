@@ -19,6 +19,7 @@ The mode of a vector is the value that appears most often.
 mode(c("D", "A", "B", "B", "C"))
 
 
-# In case of 2 or more modi, the function returns the value of the modus that appears first:
+# In case of 2 or more modi, the function returns the modus that appears
+# first:
 mode(c(4, 9, 1, 2, 9, 1))
 }
