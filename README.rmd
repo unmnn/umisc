@@ -8,6 +8,10 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # umisc
 
+<!-- badges: start -->
+  [![R build status](https://github.com/unmnn/umisc/workflows/R-CMD-check/badge.svg)](https://github.com/unmnn/umisc/actions)
+  <!-- badges: end -->
+
 ```{r install, eval=FALSE}
 # install.packages("remotes")
 remotes::install_github("unmnn/umisc")
