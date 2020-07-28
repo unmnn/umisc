@@ -1,2 +1,5 @@
-# umisc
-umisc: Miscellaneous Functions by Uli
+umisc
+=====
+
+    # install.packages("remotes")
+    remotes::install_github("unmnn/umisc")

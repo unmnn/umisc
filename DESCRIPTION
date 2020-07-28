@@ -1,0 +1,13 @@
+Package: umisc
+Type: Package
+Title: umisc: Miscellaneous Functions by Uli
+Version: 0.0.0.9000
+Authors@R: person("Uli", "Niemann",
+    email = "uli.niemann@ovgu.de", role = c("aut", "cre"))
+Description: Miscellaneous functions commonly used by me.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    testthat
+RoxygenNote: 7.1.1

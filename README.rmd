@@ -1,0 +1,15 @@
+---
+output: md_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# umisc
+
+```{r install, eval=FALSE}
+# install.packages("remotes")
+remotes::install_github("unmnn/umisc")
+```
+
