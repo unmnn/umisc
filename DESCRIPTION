@@ -1,6 +1,6 @@
 Package: umisc
 Type: Package
-Title: umisc: Miscellaneous Functions by Uli
+Title: Miscellaneous Functions by Uli
 Version: 0.0.0.9000
 Authors@R: person("Uli", "Niemann",
     email = "uli.niemann@ovgu.de", role = c("aut", "cre"))
