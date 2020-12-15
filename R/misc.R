@@ -32,7 +32,7 @@ mode <- function(x) {
 #' @export
 #'
 #' @examples
-#' char <- "adsl_depression"
+#' char <- "tlq_02_whistling"
 #' capitalize_prefix(char)
 capitalize_prefix <- function(char, sep = "_") {
   s <- strsplit(char, "_")
@@ -40,7 +40,7 @@ capitalize_prefix <- function(char, sep = "_") {
     if(length(x) == 1) {
       x
     } else {
-      paste0(toupper(x[1]), "_", x[2])
+      paste0(toupper(x[1]), "_", paste0(x[-1], collapse = "_"))
     }
   },
   FUN.VALUE = character(1),
